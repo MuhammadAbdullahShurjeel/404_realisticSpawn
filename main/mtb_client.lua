@@ -3,7 +3,7 @@ local Proxy = module("vrp","lib/Proxy")
 vRP = Proxy.getInterface("vRP")
 mtbS = Tunnel.getInterface("404_realisticSpawn")
 mtb = {}
-Tunnel.bindInterface("404_spawn_v2", mtb)
+Tunnel.bindInterface("404_realisticSpawn", mtb)
 
 local cam
 
@@ -98,6 +98,5 @@ Citizen.CreateThread(function()
 			DestroyCam(cam, true)
 			TriggerEvent("ToogleBackCharacter")
 		end
-	end
 end)
 

@@ -1,0 +1,83 @@
+/* mtb */
+
+body{
+    width: 100%; height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-image: url(./images/map.png);
+    user-select: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    display: none;
+    overflow: hidden;
+}
+
+.post{
+    position: absolute;
+    width: 13vw; height: 19vh;
+    transform: rotate(-2deg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.post-garagem-central{
+    right: 11%; top: 6%;
+}
+
+.post-garagem-praia{
+    right: 9.5%; top: 28.5%;
+}
+
+.post-garagem-sandy{
+    right: 8%; top: 51%;
+}
+
+.post-garagem-paleto{
+    right: 6.5%; top: 75%;
+}
+
+.item{
+    display: none;
+    position: absolute;
+    width: 2.5vw; height: 6vh;
+    overflow: visible;
+}
+
+img{
+    width: 3.5vw; height: 7vh;
+}
+
+.item-garagem-central{
+    right: 38%; top: 42%;
+}
+
+.item-garagem-paleto{
+    right: 79%; top: 42%;
+}
+
+.item-garagem-praia{
+    right: 41%; top: 59%;
+}
+
+.item-garagem-sandy{
+    right: 58%; top: 37%;
+}
+
+.voltar-ultimo-lugar{
+    position: absolute;
+    bottom: 11%; left: 9%;
+    width: 29.8vw; height: 3vh;
+}
+
+.voltar-ultimo-lugar-linha{
+    position: absolute;
+    bottom: 9.5%; left: 11%;
+    width: 0vw; height: 1vh;
+    background-image: url(./images/linha.png);
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.voltar-ultimo-lugar:hover + .voltar-ultimo-lugar-linha{
+    width: 24vw;
+}

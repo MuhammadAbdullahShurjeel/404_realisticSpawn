@@ -1,0 +1,35 @@
+<!-- MTB -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SPAWN</title>
+    <link rel="stylesheet" type="text/css" href="mtb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div onclick=choice(this) data-name="central" class="post post-garagem-central"></div>
+    <div onclick=choice(this) data-name="praia" class="post post-garagem-praia"></div>
+    <div onclick=choice(this) data-name="sandy" class="post post-garagem-sandy"></div>
+    <div onclick=choice(this) data-name="paleto" class="post post-garagem-paleto"></div>
+
+    
+    <div class="item item-garagem-central"><img src="./images/pin_central.png"></div>
+    <div class="item item-garagem-praia"><img src="./images/pin_praia.png"></div>
+    <div class="item item-garagem-sandy"><img src="./images/pin_sandy.png"></div>
+    <div class="item item-garagem-paleto"><img src="./images/pin_paleto.png"></div>
+
+
+    <div onclick=returnPlace() class="voltar-ultimo-lugar"></div>
+    <div class="voltar-ultimo-lugar-linha"></div>
+
+    <script src="mtb.js" type="text/javascript"></script>
+</body>
+</html>
+<!-- MTB -->

@@ -12,11 +12,6 @@ client_scripts {
 	"mtb_config.lua"
 }
 
-server_scripts {
-	"@vrp/lib/utils.lua",
-	"main/mtb_server.lua",
-}
-
 files {
 	"nui/*",
 	"nui/images/*",
